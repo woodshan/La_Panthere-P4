@@ -39,6 +39,37 @@ a:hover {
     position: relative;
 }
 
+input {
+    height: 30px;
+    border: 2px solid rgb(128, 128, 128)!important;
+    border-radius: 4px;
+}
+
+textarea {
+    border: 2px solid rgb(128, 128, 128)!important;
+    border-radius: 4px;
+}
+
+.form-group {
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#bloc-7 {
+    display:flex;
+    justify-content: center;
+}
+
+.column {
+    display:flex;
+    align-items: center;
+}
+
+.col-sm-7 {
+    margin-right: 30px;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -214,7 +245,7 @@ a:hover {
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
-.l-bloc .navbar-brand,
+.l-bloc .navbar-brand,er
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
 .l-bloc a .icon-lg,
@@ -446,6 +477,11 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.font {
+    font-size: 18px;
 }
 
 .btn {
@@ -465,6 +501,7 @@ nav .caret {
 
 button {
     outline: none!important;
+    cursor:pointer;
 }
 
 .btn-rd {
@@ -519,7 +556,6 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -660,6 +696,7 @@ label {
     font-family: "helvetica";
     font-weight: 400;
     color:black;
+    margin-bottom: 5px;
 }
 
 .container {
@@ -682,10 +719,6 @@ label {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
-
-p {
-    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -725,9 +758,12 @@ h3 {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
+}
+
+.font-design {
+    font-size: 18px;
 }
 
 h1 {
