@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+li {
+    list-style: none;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -38,11 +42,14 @@ a:hover {
     position: relative;
 }
 
+.container-welcome {
+    width: 100%;
+}
+
 .nav-modif {
     display:flex;
     justify-content: space-between;
-    width: 10%;
-    padding-left: 0;
+    width: 100%;
 }
 
 input {
@@ -70,10 +77,6 @@ textarea {
 .column {
     display:flex;
     align-items: center;
-}
-
-.col-sm-7 {
-    margin-right: 30px;
 }
 
 .bloc .container {
@@ -149,6 +152,13 @@ textarea {
 
 .d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
+}
+
+.nav-effect {
+    text-decoration: none;
+}
+.nav-effect:hover {
+    text-decoration: underline;
 }
 
 .d-bloc .a-btn,
@@ -399,17 +409,22 @@ textarea {
     z-index: 2;
 }
 
+.bloc-modif {
+    margin-left: 40px;
+}
+
 @media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
+    }
+    .article {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-modif-welcome {
+        display:flex;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -702,10 +717,6 @@ label {
     margin-bottom: 5px;
 }
 
-.container {
-    max-width: 1000px;
-}
-
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -826,6 +837,11 @@ h4 {
     background-color: #364577;
 }
 
+.navbar-modif {
+    display:flex;
+    justify-content: space-between;
+}
+
 .bgc-atomic-tangerine {
     background-color: #F3976C;
     display:flex;
@@ -877,6 +893,42 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+
+@media screen and (max-width: 768px) {
+    .article {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-modif-welcome {
+        display:flex;
+    }
+    .navbar-welcome {
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+    }
+    .social {
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .column {
+        flex-direction: column;
+        width:90%;
+    }
+    .bloc-modif {
+        margin-left: 0;
+    }
+    form {
+        display:flex;
+        flex-direction: column;
+        width:100%;
+    }
+    .bouton-modif {
+        width: 40%;
+    }
 }
 
 @media (max-width: 1024px) {
