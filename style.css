@@ -28,7 +28,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -37,6 +36,13 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+}
+
+.nav-modif {
+    display:flex;
+    justify-content: space-between;
+    width: 10%;
+    padding-left: 0;
 }
 
 input {
@@ -350,9 +356,6 @@ textarea {
 }
 
 .navbar .nav {
-    padding-top: 2px;
-    margin-right: -16px;
-    float: right;
     z-index: 1;
 }
 
@@ -873,7 +876,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
