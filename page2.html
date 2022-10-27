@@ -77,24 +77,24 @@
 	<div class="container container-modif bloc-lg">
 		<div class="column">
 			<div class="col-sm-7">
-				<form id="form_1" novalidate success-msg="Votre message a été envoyé." fail-msg="Désolé, il semble que notre serveur de messagerie ne réponde pas, Désolé pour le dérangement !">
+				<form action="./includes/form_1.php" method="post" id="form_1">
 					<div class="form-group">
 						<label>
 							Nom
 						</label>
-						<input id="name" aria-label="Entrez votre nom" class="form-control" required />
+						<input id="name" aria-label="Entrez votre nom" class="form-control" required>
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
 						</label>
-						<input id="email" aria-label="Entrez votre email" class="form-control" type="email" required />
+						<input id="email" aria-label="Entrez votre email" class="form-control" type="email" required>
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" aria-label="Entrez comment nous avez-vous connu" type="email" required id="input_504" />
+						<input class="form-control" aria-label="Entrez comment nous avez-vous connu" type="text" required id="input_504">
 					</div>
 					<div class="form-group">
 						<label>
