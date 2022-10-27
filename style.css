@@ -980,6 +980,9 @@ h4 {
 }
 
 /* MODIFICATIONS */
+.bouton-modif {
+    width: 40%;
+}
 label {
     font-family: "helvetica";
     font-weight: 400;
@@ -1118,6 +1121,6 @@ textarea {
         width:100%;
     }
     .bouton-modif {
-        width: 40%;
+        width: 100%;
     }
 }
