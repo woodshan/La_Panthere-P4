@@ -42,22 +42,6 @@ a:hover {
     position: relative;
 }
 
-.form-group {
-    display:flex;
-    flex-direction: column;
-    margin-top: 20px;
-}
-
-#bloc-7 {
-    display:flex;
-    justify-content: center;
-}
-
-.column {
-    display:flex;
-    align-items: center;
-}
-
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -253,14 +237,6 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
-}
-
-.icon-md:hover {
-    color:black!important;
-}
-
-.icon-md {
-    color:rgb(61, 61, 61)!important;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -719,10 +695,6 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
-}
-
 .text-center {
     text-align:center;
 }
@@ -1033,6 +1005,22 @@ label {
     color:black;
     margin-bottom: 5px;
 }
+.icon-md:hover {
+    color:black!important;
+}
+
+.icon-md {
+    color:rgb(61, 61, 61)!important;
+    font-size: 30px!important;
+}
+.chevron-up {
+    color: white;
+    opacity: 1;
+    z-index: 600;
+}
+.white {
+    color: #FFFFFF!important;
+}
 .navbar-modif {
     display:flex;
     justify-content: space-between;
@@ -1053,7 +1041,6 @@ label {
     justify-content: space-between;
     width: 100%;
 }
-
 input {
     height: 30px;
     border: 2px solid rgb(128, 128, 128)!important;
@@ -1063,7 +1050,21 @@ textarea {
     border: 2px solid rgb(128, 128, 128)!important;
     border-radius: 4px;
 }
+.form-group {
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
 
+#bloc-7 {
+    display:flex;
+    justify-content: center;
+}
+
+.column {
+    display:flex;
+    align-items: center;
+}
 @media (min-width: 768px) {
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
